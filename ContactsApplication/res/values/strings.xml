@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Contacts</string>
+	<string name="firstName">First Name</string>
+	<string name="lastName">Last Name</string>
+	<string name="hobby">Hobby</string>
+	<string name="sport">Sport</string>
+	<string name="mobile">Mobile</string>
+	<string name="phone">Phone</string>
+	<string name="save">Save</string>
+	<string name="cancel">Cancel</string>
+	<string name="createContact">Create Contact</string>
+	<string name="location">Location</string>
+	<string name="seeLocation">See Location</string>
+	<string name="prefix">Prefix</string>
+    
+</resources>

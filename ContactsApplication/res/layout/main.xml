@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:scrollbars="vertical" >
+    
+    
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/firstname"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/firstName"
+            android:inputType="textPersonName|textCapSentences" />
+
+        <EditText
+            android:id="@+id/lastname"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/lastName"
+            android:inputType="textPersonName|textCapSentences"/>
+    </LinearLayout>
+ 
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/mobile"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/mobile"
+            android:inputType="phone" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/phone"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/hobby"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hobby"
+        android:editable="false" >
+    </EditText>
+    
+     
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+      
+      <EditText
+            android:id="@+id/location"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/location"
+            android:inputType="textCapSentences" />
+      
+      
+      
+      <Button
+        android:id="@+id/seeLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/seeLocation" />
+      
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/save" />
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cancel" />
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>

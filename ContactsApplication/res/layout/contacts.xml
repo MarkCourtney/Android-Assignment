@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal" 
+        android:id="@+id/AL">
+
+        <TextView
+            android:id="@+id/fN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="Large Text"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+	        android:id="@+id/mobile"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+	        android:text="Mobile"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+		
+		
+		
+	</RelativeLayout>
+	
+    
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal" 
+	    android:layout_below="@+id/AL"
+        android:id="@+id/BL">
+        
+        
+        <TextView
+            android:id="@+id/lN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="Large Text"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+		
+	    <TextView
+	        android:id="@+id/phone"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+	        android:text="Large Text"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+	    
+	    </RelativeLayout>
+	    
+	    <TextView
+	        android:id="@+id/hobby"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:text="Hobby"
+        	android:layout_below="@+id/BL"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+	    
+	    <TextView
+	        android:id="@+id/location"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_below="@+id/hobby"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+	    
+    
+
+</RelativeLayout>
